@@ -61,7 +61,7 @@ while True:
         list_from_soup = soup.select('.price span')
 
         if len(list_from_soup) > 0:
-            new_price = float(list_from_soup[0].getText())
+            new_price = float(list_from_soup[0].getText().replace(",",""))
             if new_price >= (ticker_price[ticker_item] * (1.00 + percentage_move/100)):
                 print("Price mover found:")
                 ticker_price_movers[ticker_item] = new_price
