@@ -1,6 +1,8 @@
 # TSX-Price-Move-Filter
 Simple Price Move Filter
 
+(Obsolete as of 9/3/2020 as web.tmxmoney.com redirects to another site with JS)
+
 Dependency (requires module install):
 
 ```command line
